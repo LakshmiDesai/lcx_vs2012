@@ -1,0 +1,27 @@
+﻿Build started 11/18/2016 4:41:25 PM.
+     1>Project "C:\Users\tom\Desktop\lcx\lcx.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt htran.cpp
+         htran.cpp
+     1>c:\users\tom\desktop\lcx\htran.cpp(49): warning C4552: '+' : operator has no effect; expected operator with side-effect
+     1>c:\users\tom\desktop\lcx\htran.cpp(62): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>c:\users\tom\desktop\lcx\htran.cpp(101): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>c:\users\tom\desktop\lcx\htran.cpp(108): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>c:\users\tom\desktop\lcx\htran.cpp(116): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\string.h(249) : see declaration of 'stricmp'
+     1>c:\users\tom\desktop\lcx\htran.cpp(766): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\io.h(321) : see declaration of 'write'
+     1>c:\users\tom\desktop\lcx\htran.cpp(766): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
+                 c:\program files\microsoft visual studio 11.0\vc\include\stdio.h(711) : see declaration of 'fileno'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\lcx.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\lcx.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\lcx.lib" /MACHINE:X86 /SAFESEH .\Debug\htran.obj
+     1>htran.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         lcx.vcxproj -> C:\Users\tom\Desktop\lcx\.\Debug\lcx.exe
+     1>Done Building Project "C:\Users\tom\Desktop\lcx\lcx.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
